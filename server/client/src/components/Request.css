@@ -1,0 +1,64 @@
+.request-container {
+     max-width: 600px;
+     margin: 40px auto;
+     padding: 20px;
+     background-color: #ffffff;
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+
+   form {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+   }
+
+   form div {
+     display: flex;
+     flex-direction: column;
+   }
+
+   input, textarea {
+     padding: 10px;
+     font-size: 16px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     transition: border-color 0.3s ease;
+   }
+
+   input:focus, textarea:focus {
+     border-color: #1a3c6e;
+     outline: none;
+   }
+
+   button {
+     padding: 12px;
+     background-color: #1a3c6e;
+     color: white;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     font-size: 16px;
+   }
+
+   button:hover {
+     background-color: #a8c7ff;
+     color: #1a3c6e;
+   }
+
+   .error {
+     color: #d32f2f;
+     font-size: 14px;
+   }
+
+   ul {
+     list-style: none;
+     padding: 0;
+   }
+
+   li {
+     margin: 10px 0;
+     padding: 10px;
+     background-color: #f9f9f9;
+     border-radius: 4px;
+   }
